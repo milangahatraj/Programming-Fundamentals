@@ -4,8 +4,8 @@ Subject: Programming Fundamental
 Roll:
 Program: WAP to read three sode of triangle to calculate area A=[s(s-a)(s-b)(s-c)]^0.5
 s=(a+b+c)/2
-Lab no.:01
-Date:2016/9/18
+Lab no.:007
+Date:2016/9/28
 */
 
 #include<stdio.h>
