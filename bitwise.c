@@ -17,12 +17,13 @@
 		printf("Enter the Second Number:");
 		scanf("%d",&b);
 		
-		printf("\na and b=%d",a&b);
-		printf("\na or b=%d",a|b);
-		printf("\na complement:%d",~a);
-		printf("\nb complement:%d",~b);
+		printf("\nuse of AND operator(a AND b)=%d",a&b);
+		printf("\nuse of OR operator(a OR b)=%d",a|b);
+		printf("\nuse of complement(~a):%d",~a);
+		printf("\nuse of complement(~b):%d",~b);
+		printf("\nuse of XOR(a^b):%d",a^b);
 		
-		return 0;
+	return 0;
 	}
 		
 
