@@ -3,7 +3,9 @@ Student Name:Milan Gahatraj
 subject:Programming Fundamental
 Roll no.:
 Lab no.:
-program:WAP to use of assignment operator.
+program:WAP to make simple calculator:
+			a)using switch case.
+			*b)break
 Date:2016-10-23
 */
 #include<stdio.h>
