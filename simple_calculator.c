@@ -18,7 +18,7 @@ int main(){
 	
 	printf("\nSecond Number:");
 	scanf("%d",&b);
-	printf("\nSelect an operator(+,-,*,/,%)");
+	printf("\nSelect an operator(+,-,*,/,%%)");
 	scanf("%c",&o);
 	o=getchar();
 	
