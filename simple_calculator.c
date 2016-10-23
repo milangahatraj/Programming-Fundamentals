@@ -13,14 +13,15 @@ Date:2016-10-23
 int main(){
 	int a,b,result;
 	char o;
+	printf("\nSelect an operator(+,-,*,/,%%)");
+	scanf("%c",&o);
 	printf("\nFirst Number:");
 	scanf("%d",&a);
 	
 	printf("\nSecond Number:");
 	scanf("%d",&b);
-	printf("\nSelect an operator(+,-,*,/,%%)");
-	scanf("%c",&o);
-	o=getchar();
+	
+	//o=getchar();
 	
 	
 	switch(o){
