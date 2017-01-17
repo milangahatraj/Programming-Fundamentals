@@ -1,9 +1,22 @@
 #include<stdio.h>
-int main(){
-	int a;
-	printf("Enter a numbers:");
-	scanf("%d",&a);
-	(a%2==0)?printf("%d is even",a):printf("%d is odd",a);
-	return 0;
+int evenodd(int n);
+int main()
+{
+int n,result;
+printf("Enter any number:");
+scanf("%d",&n);
+result=evenodd(n);
+printf("%d",result);
+}
+int evenodd(int n)
+{
+	if(n%2==0)
+	{
+		printf("%d is even",n);
 	}
-	
+	else
+	{
+		printf("%d is odd",n);
+	}
+return 0;
+}
